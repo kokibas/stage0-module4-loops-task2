@@ -4,18 +4,10 @@ import java.util.Scanner;
 
 public class Multiplication {
     public void printMultiplied(int multiplyByAndToInclusive) {
-        int i = 0;
-        if (multiplyByAndToInclusive < 0) {
-            while (multiplyByAndToInclusive >= i) {
-                multiplyByAndToInclusive = multiplyByAndToInclusive * i;
-                i++; System.out.println(multiplyByAndToInclusive);
-            }
-
-        } else if (multiplyByAndToInclusive >= 0) {
-            while (multiplyByAndToInclusive >= i) {
-                multiplyByAndToInclusive = multiplyByAndToInclusive * i;
-                i++; System.out.println(multiplyByAndToInclusive);
-            }
+//        Scanner input = new Scanner(System.in);
+        while (multiplyByAndToInclusive >= 0 || multiplyByAndToInclusive <= 0){
+            System.out.println(multiplyByAndToInclusive);
+            multiplyByAndToInclusive++;
 
 
         }
