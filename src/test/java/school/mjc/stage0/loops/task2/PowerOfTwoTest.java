@@ -11,10 +11,10 @@ class PowerOfTwoTest extends BaseIOTest {
     public void printPowerTestPrintsUpTo16() {
         String expected =
                 "1\n" +
-                "2\n" +
-                "4\n" +
-                "8\n" +
-                "16\n";
+                        "2\n" +
+                        "4\n" +
+                        "8\n" +
+                        "16\n";
         PowerOfTwo powerOfTwo = new PowerOfTwo();
 
         powerOfTwo.printPower(4);
